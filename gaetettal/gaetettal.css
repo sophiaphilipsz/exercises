@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cae1e8;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.spil {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #aaa;
+}
+
+h1 {
+    color: #596c9e;
+}
+
+#gaet {
+    font-size: 40px;
+    color: #39478f;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#startKnap {
+    background-color: #4763be;
+    color: white;
+}
+
+#forLavt {
+    background-color: #f7e69b;
+}
+
+#rigtigt {
+    background-color: #aef3cb;
+}
+
+#forHoejt {
+    background-color: #f3503d;
+    color: white;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #777;
+    cursor: not-allowed;
+}
+
+.knapper {
+    margin-top: 20px;
+}
+
+#besked {
+    font-size: 20px;
+    font-weight: bold;
+}
